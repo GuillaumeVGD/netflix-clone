@@ -7,13 +7,98 @@ body{
     background-color: rgb(20, 20, 20);
 }
 
+.header{
+    display: flex;
+    justify-content: space-between;
+
+    height: 5vw;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0));
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    background-color: violet;
+}
+
+.logo{
+    color:chartreuse;
+    font-size: 2vw;
+    margin: 0 2% 0 0;
+}
+
+.menu a{
+    margin: 0 2% 0 2%;
+    font-size: 1.2vw;
+    text-decoration: none;
+    color: white;
+}
+
+.account{
+    height: 100%;
+    width: 20%;
+    background-color: yellowgreen;
+}
+
+.une{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+    height: 50vw;
+    padding: 0 2% 2% 2%;
+    background-color: rgb(141, 48, 48);
+
+}
+
+.description{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    height: 33%;
+    width: 33%;
+    background-color: turquoise;
+}
+
+.description .synopsis{
+    height: 60%;
+    font-size:1.3vw;
+    font-weight: 700;
+    color: white;
+}
+
+.more{
+    height: 16%;
+    width: 10%;
+    background-color: rgb(0, 238, 59);
+}
+
+
+
+
+
+
+/* ####################################################################### buttons ##################################### */
+
+
+
+
+
+
+
 .lecture {
 display: flex;
 align-items: center;
 justify-content: space-evenly;
 
-    height: 2.5rem;
-    width: 9rem;
+    height: 25%;
+    width: 38%;
     
     color: black; 
     border: none;
@@ -36,8 +121,8 @@ justify-content: space-evenly;
     align-items: center;
     justify-content: space-evenly;
     
-    height: 2.5rem;
-    width: 12rem;
+    height: 25%;
+    width: 58%;
         
     color: white; 
     border: none;
